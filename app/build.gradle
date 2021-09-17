@@ -55,4 +55,12 @@ dependencies {
     //Glide
     implementation 'com.github.bumptech.glide:glide:4.12.0'
 
+    def version = "2.15.0"
+
+    //ExoPlayer
+    implementation ("com.google.android.exoplayer:exoplayer:$version")
+    implementation ("com.google.android.exoplayer:exoplayer-core:$version")
+    implementation ("com.google.android.exoplayer:exoplayer-dash:$version")
+    implementation ("com.google.android.exoplayer:exoplayer-ui:$version")
+
 }
